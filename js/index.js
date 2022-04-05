@@ -50,7 +50,7 @@
 	});
 
 	
-	//portfolio portfolio page
+	//portfolio page
 	
 	$(".portfolio").on('click', function () {
 		$("body").addClass("portfolio-on");
@@ -58,6 +58,17 @@
 	$(".portfolio-close").on('click', function () {
 		$("body").removeClass("portfolio-on");
 	});
+
+	//History  page
+	
+	$(".history").on('click', function () {
+		$("body").addClass("history-on");
+	});
+	$(".history-close").on('click', function () {
+		$("body").removeClass("history-on");
+	});
+
+
 
 
 	
