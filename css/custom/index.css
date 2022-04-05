@@ -633,4 +633,8 @@ table td {
    .justify-content-center p{
       font-size: 0.8rem;
    }
+   .text-center.mt-4 p{
+      font-size: 0.8rem!important;
+   }
 }
+body,html{overflow-x: hidden;}
