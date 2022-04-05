@@ -170,11 +170,16 @@
     -webkit-transition-delay: 0ms;
     transition-delay: 0ms;
  }
- body.history-on .hero-section {
-   transform: rotateX(-10deg);
-   -webkit-transition-delay: 0ms;
-   transition-delay: 0ms;
-}
+ body.wildlife-on .hero-section {
+    transform: rotateX(-10deg);
+    -webkit-transition-delay: 0ms;
+    transition-delay: 0ms;
+ }
+ body.nature-on .hero-section {
+    transform: rotateX(-10deg);
+    -webkit-transition-delay: 0ms;
+    transition-delay: 0ms;
+ }
  .about-text {
      position: absolute;
     font-size: 17px;
