@@ -621,3 +621,16 @@ table td {
 .c-red{
    color: darkred;
 }
+
+@media (max-width: 600px){
+   table th:not(.sm-view),
+   table td:not(.sm-view) {
+      display: none;
+  }
+   .container.w1600{
+      min-width: 100%;
+   }
+   .justify-content-center p{
+      font-size: 0.8rem;
+   }
+}
