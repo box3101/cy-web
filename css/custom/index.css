@@ -266,8 +266,8 @@
     z-index: 1;
  }
  .about-section img {
-     width: 100px;
-    height: 140px;
+   width: 250px;
+   height: auto;
     border-radius: 4px;
     display: block;
     margin: 0 auto;
