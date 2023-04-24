@@ -463,7 +463,6 @@
     border-radius: 4px;
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
     height: 100%;
-    object-fit: cover;
  }
  .portfolio-section h3,
  .wildlife-section h3,
@@ -524,7 +523,7 @@
      color: bisque;
  }
  .col-lg-4{overflow: hidden;}
-.portfolio-section a{display: block;position: relative;width: 100%;overflow: hidden;}
+.portfolio-section a{display: block;position: relative;width: 100%;overflow: hidden;color: cornflowerblue;}
 .portfolio-section a img{
    transition:0.5s; transform:scale(1);
    height: 200px;border-radius: 0;
@@ -564,7 +563,11 @@
    padding: 1.0625rem; border: 0.0625rem solid #333;
    min-height: 16.75rem;
 }
-.txt-info-wrap .tit{font-size: 1.6rem;font-weight: 500;color: antiquewhite;font-family: '나눔 고딕';}
+.txt-info-wrap .tit{    font-size: 1.5rem;
+   font-weight: 500;
+   color: antiquewhite;
+   font-family: '나눔 고딕';
+   letter-spacing: -.5px;}
 
 .container.w1600{min-width: 1600px;}
 
@@ -649,7 +652,7 @@ table td {
    }
 }
 
-.menu ul{display: flex; gap: 10px;padding-left: 0;margin-bottom: 0;}
+.menu ul{display: flex; gap: 10px;padding-left: 0;margin-bottom: 0;display: none;}
 .menu ul li:first-of-type a{background-color: darkcyan; padding: 5px 15px;}
 .menu ul li a{display: inline-block;padding: 5px; background: #866BAF; color: #fff;font-size: 12px;font-family: 'Poppins', sans-serif;border-radius: 5px;}
 ul,li{list-style: none;}
